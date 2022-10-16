@@ -1,5 +1,5 @@
 use std::io::prelude::*;
-use std::{env, io, str};
+use std::{env, io};
 
 fn main() {
     let args: Vec<String> = env::args().collect();
